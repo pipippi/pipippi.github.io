@@ -6,16 +6,16 @@ body {
   max-width: 95%;
 }
 .title {
-  color: #02ccba;
+  color: #E6E6FA;
 }
 table {
-  border: 1px solid #02ccba;
+  border: 1px solid #E6E6FA;
   width: 100%;
   max-width: 600px;
   margin: auto;
 }
 table th {
-  background-color: #02bbba;
+  background-color: #E6E6FA;
   width: auto;
 }
 table th:first-child {
