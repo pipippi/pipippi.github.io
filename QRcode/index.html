@@ -18,12 +18,15 @@
 	#span1 {
 	 color : red;
 	}
+	.text {
+	 margin-left: 18px;
+	 position: relative;
+	}
 	.text:before {
 	 content:"★";
 	 color: #ff0000;
-	}
-	.text {
-	 margin-left: 18px;
+	 position: absolute;
+	 left: -18px;
 	}
 	.text span {
 	 font-weight: bold;
@@ -91,7 +94,7 @@
         <div class="inputarea">
         	<textarea id="textarea" cols="60" rows="5" placeholder="例）https://www.google.co.jp"></textarea>
         </div>
-        <div class="text">QRコードのサイズを記載してください。<br>　未入力の場合は <span>200px</span> × <span>200px</span> で作成します。</div>
+        <div class="text">QRコードのサイズを記載してください。<br>未入力の場合は <span>200px</span> × <span>200px</span> で作成します。</div>
         <div class="inputarea">
 	        <input type="text" id="widthsize" name="width" size="5" maxlength="3" placeholder="横サイズ">                
 	        x                
