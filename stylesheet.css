@@ -17,3 +17,9 @@ table th {
   background-color: #02bbba;
   width: auto;
 }
+table th:first-child {
+  width: 95px;
+}
+table  tr td:last-child {
+  text-align: left;
+}
