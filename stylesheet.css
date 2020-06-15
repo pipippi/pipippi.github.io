@@ -10,8 +10,8 @@ body {
 }
 table {
   border: 1px solid #02ccba;
-  width: 900px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 900px;
 }
 table th {
   background-color: #02bbba;
