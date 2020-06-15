@@ -1,3 +1,10 @@
+body {
+  text-align: center;
+}
+.main {
+  margin: auto;
+  max-width: 95%;
+}
 .title {
   color: #02ccba;
 }
