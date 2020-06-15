@@ -1,3 +1,9 @@
 .title {
   color: #02ccba;
 }
+table {
+  border: 1px solid #02ccba;
+}
+table th {
+  background-color: #02bbba;
+}
