@@ -12,6 +12,7 @@ table {
   border: 1px solid #02ccba;
   width: 100%;
   max-width: 900px;
+  margin: auto;
 }
 table th {
   background-color: #02bbba;
