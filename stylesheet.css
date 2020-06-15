@@ -11,7 +11,7 @@ body {
 table {
   border: 1px solid #02ccba;
   width: 100%;
-  max-width: 900px;
+  max-width: 600px;
   margin: auto;
 }
 table th {
