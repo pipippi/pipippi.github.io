@@ -24,3 +24,6 @@ table th:first-child {
 table  tr td:last-child {
   text-align: left;
 }
+footer {
+  margin-top: 20px;
+}
