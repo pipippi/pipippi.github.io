@@ -82,7 +82,7 @@
                 heightsizevalue = 200;
             }
 
-            var win = window.open("https://chart.googleapis.com/chart?cht=qr&chs=" + widthsizevalue + "x" + heightsizevalue + "&chl=" + textareavalue + "&choe=UTF-8", "QRCode");
+            var win = window.open("https://api.qrserver.com/v1/create-qr-code/?size=" + widthsizevalue + "x" + heightsizevalue + "&data=" + textareavalue + "&choe=UTF-8", "QRCode");
     
         }
     </script>
